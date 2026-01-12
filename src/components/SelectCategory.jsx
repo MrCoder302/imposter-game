@@ -7,7 +7,7 @@ function SelectCategory({ onBack, onStart }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/api.json")
+    fetch(`${import.meta.env.BASE_URL}api.json`)
       .then((res) => res.json())
       .then((data) => {
         setCategories(Object.keys(data));

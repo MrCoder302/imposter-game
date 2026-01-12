@@ -9,7 +9,7 @@ function App() {
   const [gameData, setGameData] = useState(null);
 
   const handleStartGame = (selectedCategories) => {
-    fetch("/api.json")
+    fetch(`${import.meta.env.BASE_URL}api.json`)
       .then((res) => res.json())
       .then((allData) => {
         let pool = [];
