@@ -1,0 +1,77 @@
+{
+  "objects": [
+    "Chair", "Table", "Lamp", "Clock", "Pen", "Notebook", "Phone", "Bottle",
+    "Cup", "Fork", "Spoon", "Knife", "Wallet", "Bag", "Backpack", "Camera",
+    "Headphones", "Watch", "Mirror", "Bed", "Couch", "Fan", "Television",
+    "Remote", "Brush", "Toothbrush", "Towel", "Soap", "Comb", "Scissors", "Paper",
+    "Envelope", "Book", "Magazine", "Calculator", "Stapler", "Pillow", "Blanket",
+    "Ruler", "Eraser", "Glue", "Marker", "Paint", "Bucket", "Broom", "Vacuum"
+  ],
+
+  "animals": [
+    "Dog", "Cat", "Elephant", "Tiger", "Lion", "Giraffe", "Zebra", "Monkey",
+    "Bear", "Wolf", "Fox", "Rabbit", "Deer", "Horse", "Cow", "Sheep", "Goat",
+    "Pig", "Chicken", "Duck", "Goose", "Turkey", "Kangaroo", "Panda", "Koala",
+    "Penguin", "Dolphin", "Shark", "Whale", "Octopus", "Crab", "Lobster",
+    "Frog", "Snake", "Turtle", "Crocodile", "Parrot", "Eagle", "Owl", "Swan"
+  ],
+
+  "professions": [
+    "Doctor", "Engineer", "Teacher", "Nurse", "Police", "Firefighter", "Chef",
+    "Pilot", "Driver", "Farmer", "Actor", "Singer", "Dancer", "Writer", "Artist",
+    "Photographer", "Journalist", "Lawyer", "Judge", "Mechanic", "Dentist",
+    "Scientist", "Programmer", "Designer", "Architect", "Carpenter", "Electrician",
+    "Plumber", "Waiter", "Barber", "Musician", "Coach", "Manager", "CEO",
+    "Secretary", "Receptionist", "Librarian", "Translator", "Surgeon", "Analyst"
+  ],
+
+  "brands": [
+    "Nike", "Adidas", "Apple", "Samsung", "Sony", "Microsoft", "Google", "Amazon",
+    "Coca-Cola", "Pepsi", "McDonald's", "Starbucks", "Toyota", "Honda", "BMW",
+    "Mercedes", "Audi", "Louis Vuitton", "Gucci", "Puma", "Reebok", "Intel",
+    "Dell", "HP", "Lenovo", "Netflix", "Spotify", "Facebook", "Instagram",
+    "Snapchat", "TikTok", "Uber", "Airbnb", "Visa", "MasterCard", "Nestle",
+    "KFC", "Burger King", "Lego", "Canon", "Nikon", "Rolex", "Chanel", "Zara",
+    "H&M", "Disney", "Pixar"
+  ],
+
+  "places": [
+    "Hospital", "School", "Airport", "Station", "Bank", "Market", "Park", "Beach",
+    "Mall", "Restaurant", "Hotel", "Library", "Museum", "Zoo", "Theater", "Cinema",
+    "Stadium", "Church", "Temple", "Mosque", "Bridge", "Tower", "Mountain", "River",
+    "Lake", "City", "Village", "Island", "Desert", "Forest", "Cave", "Harbor",
+    "Castle", "Palace", "Garden", "Square", "Street", "Road", "Highway"
+  ],
+
+  "sports": [
+    "Soccer", "Basketball", "Tennis", "Cricket", "Baseball", "Volleyball", "Hockey",
+    "Swimming", "Running", "Cycling", "Boxing", "Wrestling", "Golf", "Badminton",
+    "Table Tennis", "Rugby", "American Football", "Skating", "Skiing", "Snowboarding",
+    "Surfing", "Karate", "Judo", "Taekwondo", "Gymnastics", "Bowling", "Archery"
+  ],
+
+  "fruits_vegetables": [
+    "Apple", "Banana", "Orange", "Mango", "Grapes", "Pineapple", "Strawberry",
+    "Watermelon", "Peach", "Cherry", "Tomato", "Potato", "Carrot", "Cucumber",
+    "Onion", "Garlic", "Spinach", "Lettuce", "Broccoli", "Cabbage", "Pumpkin",
+    "Pea", "Corn", "Radish", "Eggplant"
+  ],
+
+  "vehicles": [
+    "Car", "Bike", "Bus", "Train", "Airplane", "Helicopter", "Boat", "Ship",
+    "Truck", "Van", "Scooter", "Motorbike", "Tractor", "Submarine", "Ferry",
+    "Ambulance", "Taxi", "Taxi", "Rickshaw", "Cable Car", "Cart"
+  ],
+
+  "clothes_accessories": [
+    "Shirt", "Pants", "Dress", "Shoes", "Socks", "Hat", "Cap",
+    "Scarf", "Gloves", "Belt", "Tie", "Jacket", "Coat", "Sweater", "T-shirt",
+    "Jeans", "Shorts", "Boots", "Sneakers", "Watch", "Bracelet", "Necklace"
+  ],
+
+  "musical_instruments": [
+    "Guitar", "Piano", "Violin", "Drums", "Flute", "Saxophone", "Trumpet",
+    "Harp", "Clarinet", "Cello", "Trombone", "Accordion", "Keyboard",
+    "Tambourine", "Triangle", "Ukulele", "Bagpipes", "Maracas", "Oboe"
+  ]
+}
