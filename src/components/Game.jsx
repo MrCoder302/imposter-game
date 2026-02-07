@@ -61,7 +61,7 @@ function Game({ players, gameData, onReset }) {
         <p className="text-neutral-500 text-sm mb-8 text-center italic">Discuss with everyone, then reveal the truth.</p>
         <div className="grid grid-cols-2 gap-3 w-full max-w-sm mb-12">
           {players.map((name, i) => (
-            <div key={i} className={`p-4 rounded-xl border text-center font-bold ${i === gameData.imposterIndex ? "border-neutral-700/50 bg-neutral-800/50" : "bg-neutral-800 border-neutral-700"}`}>
+            <div key={i} className="p-4 rounded-xl border text-center font-bold bg-neutral-800 border-neutral-700">
               {name}
             </div>
           ))}
