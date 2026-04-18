@@ -1,77 +1,392 @@
 {
-  "objects": [
-    "Chair", "Table", "Lamp", "Clock", "Pen", "Notebook", "Phone", "Bottle",
-    "Cup", "Fork", "Spoon", "Knife", "Wallet", "Bag", "Backpack", "Camera",
-    "Headphones", "Watch", "Mirror", "Bed", "Couch", "Fan", "Television",
-    "Remote", "Brush", "Toothbrush", "Towel", "Soap", "Comb", "Scissors", "Paper",
-    "Envelope", "Book", "Magazine", "Calculator", "Stapler", "Pillow", "Blanket",
-    "Ruler", "Eraser", "Glue", "Marker", "Paint", "Bucket", "Broom", "Vacuum"
-  ],
-
-  "animals": [
-    "Dog", "Cat", "Elephant", "Tiger", "Lion", "Giraffe", "Zebra", "Monkey",
-    "Bear", "Wolf", "Fox", "Rabbit", "Deer", "Horse", "Cow", "Sheep", "Goat",
-    "Pig", "Chicken", "Duck", "Goose", "Turkey", "Kangaroo", "Panda", "Koala",
-    "Penguin", "Dolphin", "Shark", "Whale", "Octopus", "Crab", "Lobster",
-    "Frog", "Snake", "Turtle", "Crocodile", "Parrot", "Eagle", "Owl", "Swan"
-  ],
-
-  "professions": [
-    "Doctor", "Engineer", "Teacher", "Nurse", "Police", "Firefighter", "Chef",
-    "Pilot", "Driver", "Farmer", "Actor", "Singer", "Dancer", "Writer", "Artist",
-    "Photographer", "Journalist", "Lawyer", "Judge", "Mechanic", "Dentist",
-    "Scientist", "Programmer", "Designer", "Architect", "Carpenter", "Electrician",
-    "Plumber", "Waiter", "Barber", "Musician", "Coach", "Manager", "CEO",
-    "Secretary", "Receptionist", "Librarian", "Translator", "Surgeon", "Analyst"
-  ],
-
-  "brands": [
-    "Nike", "Adidas", "Apple", "Samsung", "Sony", "Microsoft", "Google", "Amazon",
-    "Coca-Cola", "Pepsi", "McDonald's", "Starbucks", "Toyota", "Honda", "BMW",
-    "Mercedes", "Audi", "Louis Vuitton", "Gucci", "Puma", "Reebok", "Intel",
-    "Dell", "HP", "Lenovo", "Netflix", "Spotify", "Facebook", "Instagram",
-    "Snapchat", "TikTok", "Uber", "Airbnb", "Visa", "MasterCard", "Nestle",
-    "KFC", "Burger King", "Lego", "Canon", "Nikon", "Rolex", "Chanel", "Zara",
-    "H&M", "Disney", "Pixar"
-  ],
-
-  "places": [
-    "Hospital", "School", "Airport", "Station", "Bank", "Market", "Park", "Beach",
-    "Mall", "Restaurant", "Hotel", "Library", "Museum", "Zoo", "Theater", "Cinema",
-    "Stadium", "Church", "Temple", "Mosque", "Bridge", "Tower", "Mountain", "River",
-    "Lake", "City", "Village", "Island", "Desert", "Forest", "Cave", "Harbor",
-    "Castle", "Palace", "Garden", "Square", "Street", "Road", "Highway"
-  ],
-
-  "sports": [
-    "Soccer", "Basketball", "Tennis", "Cricket", "Baseball", "Volleyball", "Hockey",
-    "Swimming", "Running", "Cycling", "Boxing", "Wrestling", "Golf", "Badminton",
-    "Table Tennis", "Rugby", "American Football", "Skating", "Skiing", "Snowboarding",
-    "Surfing", "Karate", "Judo", "Taekwondo", "Gymnastics", "Bowling", "Archery"
-  ],
-
-  "fruits_vegetables": [
-    "Apple", "Banana", "Orange", "Mango", "Grapes", "Pineapple", "Strawberry",
-    "Watermelon", "Peach", "Cherry", "Tomato", "Potato", "Carrot", "Cucumber",
-    "Onion", "Garlic", "Spinach", "Lettuce", "Broccoli", "Cabbage", "Pumpkin",
-    "Pea", "Corn", "Radish", "Eggplant"
-  ],
-
-  "vehicles": [
-    "Car", "Bike", "Bus", "Train", "Airplane", "Helicopter", "Boat", "Ship",
-    "Truck", "Van", "Scooter", "Motorbike", "Tractor", "Submarine", "Ferry",
-    "Ambulance", "Taxi", "Taxi", "Rickshaw", "Cable Car", "Cart"
-  ],
-
-  "clothes_accessories": [
-    "Shirt", "Pants", "Dress", "Shoes", "Socks", "Hat", "Cap",
-    "Scarf", "Gloves", "Belt", "Tie", "Jacket", "Coat", "Sweater", "T-shirt",
-    "Jeans", "Shorts", "Boots", "Sneakers", "Watch", "Bracelet", "Necklace"
-  ],
-
-  "musical_instruments": [
-    "Guitar", "Piano", "Violin", "Drums", "Flute", "Saxophone", "Trumpet",
-    "Harp", "Clarinet", "Cello", "Trombone", "Accordion", "Keyboard",
-    "Tambourine", "Triangle", "Ukulele", "Bagpipes", "Maracas", "Oboe"
-  ]
+  "animals": {
+    "easy": [
+      "Cat", "Dog", "Fish", "Bird", "Cow", "Horse", "Rabbit", "Elephant",
+      "Lion", "Tiger", "Monkey", "Snake", "Frog", "Duck", "Pig", "Sheep",
+      "Goat", "Hen", "Parrot", "Turtle", "Bear", "Wolf", "Fox", "Deer",
+      "Eagle", "Shark", "Whale", "Dolphin", "Penguin", "Giraffe", "Zebra",
+      "Camel", "Crocodile", "Gorilla", "Cheetah", "Peacock", "Flamingo",
+      "Ostrich", "Kangaroo", "Koala", "Panda", "Polar Bear", "Seal",
+      "Walrus", "Octopus", "Jellyfish", "Crab", "Lobster", "Starfish"
+    ],
+    "medium": [
+      "Platypus", "Armadillo", "Wolverine", "Meerkat", "Wombat", "Tapir",
+      "Capybara", "Iguana", "Chameleon", "Komodo Dragon", "Manta Ray",
+      "Hammerhead", "Barracuda", "Piranha", "Electric Eel", "Flying Fish",
+      "Narwhal", "Beluga", "Manatee", "Dugong", "Howler Monkey", "Mandrill",
+      "Proboscis Monkey", "Snow Leopard", "Clouded Leopard", "Serval",
+      "Ocelot", "Caracal", "Binturong", "Kinkajou", "Coati", "Peccary",
+      "Tapir", "Giant Anteater", "Sloth Bear", "Sun Bear", "Spectacled Bear",
+      "Quoll", "Numbat", "Bilby", "Tasmanian Devil", "Echidna", "Cassowary",
+      "Kiwi", "Kakapo", "Lyrebird", "Shoebill", "Secretary Bird", "Hornbill"
+    ],
+    "hard": [
+      "Axolotl", "Pangolin", "Okapi", "Quokka", "Fossa", "Aye-Aye",
+      "Tarsier", "Loris", "Galago", "Tenrec", "Aardvark", "Aardwolf",
+      "Zorilla", "Quagga", "Thylacine", "Saola", "Hirola", "Dibatag",
+      "Gerenuk", "Bongo", "Sitatunga", "Nyala", "Bushbuck", "Oribi",
+      "Klipspringer", "Steenbok", "Dik-dik", "Suni", "Grysbok", "Rhebok",
+      "Vaquita", "Baiji", "Irrawaddy Dolphin", "Finless Porpoise", "Boto",
+      "Gharial", "Gavial", "Matamata", "Alligator Snapping Turtle",
+      "Leatherback", "Hawksbill", "Ridley", "Flatback", "Loggerhead",
+      "Tuatara", "Olm", "Hellbender", "Chinese Giant Salamander", "Goliath Frog"
+    ]
+  },
+  "food": {
+    "easy": [
+      "Pizza", "Burger", "Rice", "Bread", "Egg", "Milk", "Cake", "Apple",
+      "Banana", "Chicken", "Soup", "Pasta", "Salad", "Sandwich", "Cookie",
+      "Chocolate", "Ice Cream", "Juice", "Tea", "Coffee", "Noodles", "Fries",
+      "Steak", "Shrimp", "Tuna", "Salmon", "Cheese", "Butter", "Yogurt",
+      "Honey", "Jam", "Cereal", "Pancake", "Waffle", "Donut", "Muffin",
+      "Brownie", "Popcorn", "Chips", "Pretzel", "Cracker", "Biscuit",
+      "Omelette", "Bacon", "Sausage", "Ham", "Turkey", "Lamb", "Beef", "Pork"
+    ],
+    "medium": [
+      "Sushi", "Taco", "Biryani", "Lasagna", "Samosa", "Kebab", "Dumpling",
+      "Croissant", "Ramen", "Paella", "Risotto", "Gnocchi", "Falafel",
+      "Hummus", "Shawarma", "Pho", "Pad Thai", "Kimchi", "Tempura",
+      "Teriyaki", "Satay", "Rendang", "Massaman", "Tom Yum", "Laksa",
+      "Nasi Goreng", "Mole", "Enchilada", "Tamale", "Ceviche", "Empanada",
+      "Chimichurri", "Arepas", "Pupusa", "Jerk Chicken", "Jollof Rice",
+      "Injera", "Tagine", "Couscous", "Harira", "Shakshuka", "Fattoush",
+      "Tabbouleh", "Mansaf", "Kabsa", "Maqluba", "Knafeh", "Baklava",
+      "Tiramisu", "Gelato"
+    ],
+    "hard": [
+      "Foie Gras", "Escargot", "Borscht", "Haggis", "Lutefisk", "Surströmming",
+      "Hákarl", "Balut", "Century Egg", "Stinky Tofu", "Durian", "Jackfruit",
+      "Breadfruit", "Cherimoya", "Feijoa", "Lychee", "Rambutan", "Mangosteen",
+      "Longan", "Salak", "Langsat", "Marang", "Soursop", "Ackee", "Sapodilla",
+      "Mamey", "Cupuaçu", "Camu Camu", "Aguaje", "Cocona", "Tamarillo",
+      "Granadilla", "Naranjilla", "Lulo", "Guanábana", "Pitahaya", "Jaboticaba",
+      "Uvaia", "Grumichama", "Araçá", "Caju", "Bacuri", "Buriti", "Açaí",
+      "Murici", "Pequi", "Baru", "Guaraná", "Cupuaçu", "Tucumã"
+    ]
+  },
+  "sports": {
+    "easy": [
+      "Football", "Cricket", "Tennis", "Swimming", "Running", "Basketball",
+      "Cycling", "Boxing", "Volleyball", "Baseball", "Golf", "Skiing",
+      "Badminton", "Table Tennis", "Wrestling", "Gymnastics", "Athletics",
+      "Rowing", "Sailing", "Surfing", "Diving", "Weightlifting", "Archery",
+      "Shooting", "Fencing", "Judo", "Karate", "Taekwondo", "Hockey",
+      "Rugby", "Handball", "Water Polo", "Polo", "Lacrosse", "Squash",
+      "Racquetball", "Skateboarding", "Snowboarding", "Ice Skating",
+      "Figure Skating", "Speed Skating", "Bobsled", "Luge", "Skeleton",
+      "Biathlon", "Cross-Country Skiing", "Ski Jumping", "Alpine Skiing",
+      "Freestyle Skiing", "Curling"
+    ],
+    "medium": [
+      "Triathlon", "Pentathlon", "Decathlon", "Heptathlon", "Steeplechase",
+      "Racewalking", "Hammer Throw", "Discus", "Javelin", "Shot Put",
+      "Pole Vault", "High Jump", "Long Jump", "Triple Jump", "Marathon",
+      "Ultra Marathon", "Obstacle Course", "Parkour", "Bouldering",
+      "Sport Climbing", "Canoe Slalom", "Kayaking", "Dragon Boat",
+      "Synchronized Swimming", "Artistic Swimming", "Equestrian",
+      "Show Jumping", "Dressage", "Eventing", "Pelota", "Jai Alai",
+      "Real Tennis", "Rackets", "Croquet", "Polo Cross", "Tent Pegging",
+      "Kabaddi", "Kho Kho", "Mallakhamb", "Gatka", "Silambam", "Kalari",
+      "Capoeira", "Sumo", "Sambo", "Pankration", "Savate", "Muay Thai",
+      "Kickboxing", "Vale Tudo"
+    ],
+    "hard": [
+      "Sepak Takraw", "Buzkashi", "Korfball", "Bandy", "Floorball",
+      "Ringette", "Broomball", "Underwater Hockey", "Underwater Rugby",
+      "Octopush", "Bog Snorkeling", "Wife Carrying", "Chess Boxing",
+      "Zorbing", "Bossaball", "Spikeball", "Footvolley", "Pesäpallo",
+      "Rounders", "Stoolball", "Knur and Spell", "Skittles", "Nine Pins",
+      "Bocce", "Pétanque", "Boules", "Bowls", "Kubb", "Molkky",
+      "Finnish Baseball", "Lapta", "Gorodki", "Bylinball", "Podroz",
+      "Hornussen", "Schwingen", "Steinstossen", "Fingerhakeln", "Rangoli",
+      "Gilli Danda", "Pittu", "Lagori", "Kancha", "Nondi", "Eyugor",
+      "Kokpar", "Toguz Korgool", "Ordo", "Mangala", "Achi"
+    ]
+  },
+  "places": {
+    "easy": [
+      "School", "Hospital", "Market", "Park", "Airport", "Beach", "Restaurant",
+      "Hotel", "Stadium", "Library", "Bank", "Cinema", "Museum", "Church",
+      "Mosque", "Temple", "Mall", "Supermarket", "Pharmacy", "Post Office",
+      "Police Station", "Fire Station", "Train Station", "Bus Stop", "Zoo",
+      "Aquarium", "Amusement Park", "Playground", "Garden", "Farm",
+      "Factory", "Office", "Warehouse", "Garage", "Petrol Station", "Bakery",
+      "Cafe", "Barbershop", "Salon", "Gym", "Pool", "Club", "Bar", "Pub",
+      "Theatre", "Concert Hall", "Exhibition Hall", "Convention Center",
+      "University", "College"
+    ],
+    "medium": [
+      "Cathedral", "Lighthouse", "Observatory", "Vineyard", "Monastery",
+      "Submarine Base", "Glacier", "Quarry", "Arcade", "Planetarium",
+      "Botanical Garden", "Arboretum", "Aviary", "Insectarium", "Vivarium",
+      "Terrarium", "Aquarium", "Oceanarium", "Dolphinarium", "Velodrome",
+      "Velodrome", "Hippodrome", "Amphitheatre", "Coliseum", "Arena",
+      "Pavilion", "Rotunda", "Basilica", "Synagogue", "Pagoda", "Stupa",
+      "Ziggurat", "Pyramid", "Citadel", "Fortress", "Castle", "Palace",
+      "Manor", "Villa", "Chateau", "Hacienda", "Estancia", "Ranch",
+      "Plantation", "Orchard", "Vineyard", "Winery", "Distillery",
+      "Brewery", "Refinery"
+    ],
+    "hard": [
+      "Catacombs", "Abattoir", "Bunker", "Mausoleum", "Sanatorium",
+      "Silo", "Aqueduct", "Viaduct", "Adit", "Adyt", "Cenotaph",
+      "Ossuary", "Charnel House", "Reliquary", "Scriptorium", "Armory",
+      "Ordnance Depot", "Powder Magazine", "Caravanserai", "Fondaco",
+      "Loggia", "Portico", "Narthex", "Nave", "Apse", "Transept",
+      "Clerestory", "Triforium", "Ambulatory", "Chevet", "Presbytery",
+      "Sacristy", "Vestry", "Cloister", "Garth", "Precinct", "Close",
+      "Undercroft", "Crypt", "Hypogeum", "Sudatorium", "Frigidarium",
+      "Tepidarium", "Caldarium", "Laconicum", "Natatio", "Palaestra",
+      "Xystos", "Dromos", "Temenos"
+    ]
+  },
+  "technology": {
+    "easy": [
+      "Phone", "Laptop", "Camera", "TV", "WiFi", "Keyboard", "Charger",
+      "Speaker", "Mouse", "Printer", "Headphones", "Tablet", "Monitor",
+      "Projector", "Scanner", "Router", "Modem", "Hard Drive", "USB",
+      "Battery", "Remote", "Calculator", "Microphone", "Webcam", "Earbuds",
+      "Smartwatch", "Fitness Tracker", "Smart TV", "Smart Speaker",
+      "Game Console", "Controller", "VR Headset", "Drone", "Robot",
+      "3D Printer", "ATM", "Vending Machine", "Self Checkout", "GPS",
+      "Dash Cam", "Security Camera", "Doorbell Camera", "Smart Lock",
+      "Smart Thermostat", "Smart Light", "Smart Plug", "Solar Panel",
+      "Wind Turbine", "Electric Car"
+    ],
+    "medium": [
+      "Algorithm", "Database", "Firewall", "Encryption", "Compiler",
+      "API", "Blockchain", "Neural Network", "GPU", "Server Farm",
+      "Cloud Computing", "Machine Learning", "Artificial Intelligence",
+      "Natural Language Processing", "Computer Vision", "Data Mining",
+      "Big Data", "Internet of Things", "Augmented Reality", "Virtual Reality",
+      "Mixed Reality", "Digital Twin", "Edge Computing", "Fog Computing",
+      "Quantum Computing", "Nanotechnology", "Biotechnology", "Gene Editing",
+      "CRISPR", "Bioinformatics", "Computational Biology", "Systems Biology",
+      "Synthetic Biology", "Metabolic Engineering", "Protein Folding",
+      "Drug Discovery", "Precision Medicine", "Telemedicine", "Digital Health",
+      "Health Informatics", "Medical Imaging", "Robotic Surgery",
+      "Exoskeleton", "Prosthetics", "Brain Computer Interface",
+      "Neural Implant", "Cochlear Implant", "Retinal Implant",
+      "Deep Brain Stimulation", "Transcranial Stimulation"
+    ],
+    "hard": [
+      "Eigenvalue", "Mutex", "Qubit", "Transpiler", "Merkle Tree",
+      "Endianness", "Homomorphic Encryption", "Sharding", "Hypervisor",
+      "Microkernel", "Monolithic Kernel", "Exokernel", "Unikernel",
+      "Capability Based Security", "Formal Verification", "Model Checking",
+      "Theorem Proving", "Type Theory", "Lambda Calculus", "Category Theory",
+      "Monad", "Functor", "Applicative", "Comonad", "Bifunctor",
+      "Profunctor", "Optic", "Lens", "Prism", "Traversal",
+      "Continuations", "Delimited Continuations", "Effect Handlers",
+      "Algebraic Effects", "Free Monads", "Tagless Final", "HOAS",
+      "PHOAS", "De Bruijn Index", "SKI Combinators", "Y Combinator",
+      "Fixed Point", "Denotational Semantics", "Operational Semantics",
+      "Axiomatic Semantics", "Bisimulation", "Refinement Types",
+      "Dependent Types", "Linear Types", "Session Types"
+    ]
+  },
+  "movies": {
+    "easy": [
+      "Action", "Comedy", "Horror", "Romance", "Animation", "Drama",
+      "Superhero", "Musical", "Western", "Thriller", "Fantasy", "Sci-Fi",
+      "Documentary", "Biography", "History", "Mystery", "Adventure",
+      "Family", "Sport", "War", "Crime", "Heist", "Spy", "Zombie",
+      "Vampire", "Werewolf", "Alien", "Robot", "Time Travel", "Disaster",
+      "Monster", "Slasher", "Ghost", "Witch", "Wizard", "Fairy Tale",
+      "Mythology", "Superhuman", "Martial Arts", "Samurai", "Ninja",
+      "Pirate", "Viking", "Gladiator", "Cowboy", "Bounty Hunter",
+      "Detective", "Serial Killer", "Hitman", "Spy Thriller", "Political"
+    ],
+    "medium": [
+      "Noir", "Mockumentary", "Satire", "Anthology", "Found Footage",
+      "Cyberpunk", "Steampunk", "Neo-Noir", "Psychological Thriller",
+      "Body Horror", "Cosmic Horror", "Lovecraftian", "Gothic Horror",
+      "Southern Gothic", "Nordic Noir", "Giallo", "Spaghetti Western",
+      "Acid Western", "Revisionist Western", "Blaxploitation", "Grindhouse",
+      "Exploitation", "B-Movie", "Cult Classic", "Art House", "Slow Cinema",
+      "Mumblecore", "Dogme 95", "New Wave", "French New Wave",
+      "Italian Neorealism", "German Expressionism", "Soviet Montage",
+      "Parallel Cinema", "Third Cinema", "Black Wave", "Czech New Wave",
+      "Japanese New Wave", "Brazilian Cinema Novo", "Taiwanese New Wave",
+      "Hong Kong New Wave", "Korean New Wave", "Iranian New Wave",
+      "Australian New Wave", "British New Wave", "American New Wave",
+      "New Hollywood", "Indie Film", "Microbudget Film"
+    ],
+    "hard": [
+      "Dogme 95", "Cinéma Vérité", "Direct Cinema", "Structural Film",
+      "Expanded Cinema", "Fluxus Film", "Letterist Film", "Situationist Film",
+      "Underground Film", "Avant-Garde Film", "Experimental Film",
+      "Essay Film", "Ethnographic Film", "Observational Documentary",
+      "Participatory Documentary", "Reflexive Documentary", "Performative Documentary",
+      "Poetic Documentary", "Expository Documentary", "Compilation Film",
+      "Docufiction", "Mockumentary", "Docudrama", "Reenactment Film",
+      "Archival Footage Film", "Found Footage Film", "Collage Film",
+      "Assemblage Film", "Appropriation Film", "Remake", "Reboot", "Sequel",
+      "Prequel", "Interquel", "Sidequel", "Spin-off", "Crossover",
+      "Anthology Series", "Miniseries", "Limited Series", "Webseries",
+      "Transmedia", "Hyperlink Cinema", "Puzzle Film", "Mind Game Film",
+      "Unreliable Narrator Film", "Epistolary Film", "Metafiction Film",
+      "Self-Referential Film", "Postmodern Film"
+    ]
+  },
+  "professions": {
+    "easy": [
+      "Doctor", "Teacher", "Engineer", "Lawyer", "Chef", "Pilot",
+      "Nurse", "Police", "Firefighter", "Soldier", "Farmer", "Driver",
+      "Builder", "Plumber", "Electrician", "Carpenter", "Painter",
+      "Mechanic", "Barber", "Tailor", "Shopkeeper", "Banker", "Accountant",
+      "Secretary", "Manager", "Director", "Actor", "Singer", "Dancer",
+      "Photographer", "Journalist", "Reporter", "Anchor", "Presenter",
+      "Writer", "Author", "Poet", "Artist", "Sculptor", "Designer",
+      "Architect", "Scientist", "Researcher", "Professor", "Librarian",
+      "Pharmacist", "Dentist", "Surgeon", "Veterinarian", "Psychologist"
+    ],
+    "medium": [
+      "Anesthesiologist", "Radiologist", "Pathologist", "Oncologist",
+      "Cardiologist", "Neurologist", "Ophthalmologist", "Dermatologist",
+      "Orthopedist", "Gastroenterologist", "Endocrinologist", "Immunologist",
+      "Geneticist", "Epidemiologist", "Biostatistician", "Biomedical Engineer",
+      "Clinical Researcher", "Medical Examiner", "Forensic Scientist",
+      "Toxicologist", "Serologist", "Odontologist", "Anthropologist",
+      "Archaeologist", "Paleontologist", "Geologist", "Seismologist",
+      "Volcanologist", "Meteorologist", "Climatologist", "Oceanographer",
+      "Limnologist", "Hydrologist", "Glaciologist", "Ecologist",
+      "Ethologist", "Ornithologist", "Entomologist", "Herpetologist",
+      "Ichthyologist", "Mammalogist", "Mycologist", "Botanist",
+      "Phycologist", "Bryologist", "Lichenologist", "Dendrologist",
+      "Palynologist", "Pedologist"
+    ],
+    "hard": [
+      "Cicerone", "Sommelier", "Maître d'", "Abigail", "Almoner",
+      "Armiger", "Assayer", "Aulnager", "Balladeer", "Barker",
+      "Bellhop", "Bladesmith", "Bowyer", "Brazier", "Broderer",
+      "Buttonmaker", "Caulker", "Chandler", "Chapman", "Charcoal Burner",
+      "Cheesemaker", "Cordwainer", "Costumier", "Cottar", "Currier",
+      "Cutler", "Dyer", "Farrier", "Fellmonger", "Fletcher",
+      "Footman", "Fuller", "Girdler", "Glazier", "Glover",
+      "Haberdasher", "Hayward", "Horner", "Hosier", "Huckster",
+      "Jagger", "Joiner", "Knacker", "Lacemaker", "Larderer",
+      "Limner", "Lorimer", "Manciple", "Mercer", "Milliner"
+    ]
+  },
+  "nature": {
+    "easy": [
+      "Tree", "Flower", "River", "Mountain", "Ocean", "Forest", "Desert",
+      "Lake", "Waterfall", "Volcano", "Island", "Cave", "Cliff", "Valley",
+      "Plain", "Meadow", "Field", "Jungle", "Swamp", "Marsh", "Bog",
+      "Tundra", "Glacier", "Iceberg", "Coral Reef", "Rainforest", "Savanna",
+      "Steppe", "Prairie", "Pampas", "Moor", "Heath", "Fen", "Delta",
+      "Estuary", "Lagoon", "Fjord", "Canyon", "Gorge", "Ravine",
+      "Plateau", "Mesa", "Butte", "Dune", "Oasis", "Spring", "Geyser",
+      "Hot Spring", "Tide Pool", "Mangrove"
+    ],
+    "medium": [
+      "Alluvial Fan", "Arroyo", "Atoll", "Bajada", "Barchan",
+      "Bight", "Caldera", "Cirque", "Drumlin", "Erratic",
+      "Esker", "Fjard", "Floodplain", "Fumarole", "Hanging Valley",
+      "Horn", "Inselberg", "Karst", "Kettle", "Laccolith",
+      "Lahar", "Loess", "Maar", "Moraine", "Mudflat",
+      "Nunatak", "Oxbow Lake", "Peneplain", "Playa", "Pothole",
+      "Ria", "Rip Current", "Saltpan", "Sinkhole", "Solfatara",
+      "Stalagmite", "Stalactite", "Strandflat", "Tafoni", "Talus",
+      "Tarn", "Tombolo", "Tuya", "Uvala", "Ventifact",
+      "Wadi", "Yazoo", "Yardang", "Zeugen", "Scree"
+    ],
+    "hard": [
+      "Abiotic", "Ablation", "Abrasion", "Accretion", "Acidification",
+      "Aeolian", "Aggradation", "Albedo", "Allogenous", "Anabatic",
+      "Anaerobic", "Anoxic", "Anthropogenic", "Aphotic", "Autogenic",
+      "Bathypelagic", "Benthic", "Biogeochemical", "Biogeography",
+      "Biosequence", "Biostrome", "Biotic", "Catena", "Cation Exchange",
+      "Chronosequence", "Clinal", "Cryoturbation", "Deflation",
+      "Denudation", "Diagenesis", "Diapir", "Diapiric", "Diastrophism",
+      "Diurnal", "Eolian", "Epilimnion", "Epipedogenic", "Eutrophication",
+      "Exfoliation", "Ferralitization", "Geomorphic", "Geostrophic",
+      "Halophyte", "Heliophyte", "Holocene", "Hydraulic", "Hydrograph",
+      "Hydrophyte", "Hygrophyte", "Hypolimnion"
+    ]
+  },
+  "history": {
+    "easy": [
+      "Pyramid", "Gladiator", "Knight", "Castle", "Empire", "Revolution",
+      "Colony", "Slavery", "Treaty", "Battle", "Siege", "Conquest",
+      "Invasion", "Rebellion", "Dynasty", "Pharaoh", "Emperor", "King",
+      "Queen", "Prince", "Princess", "Warrior", "Archer", "Cavalry",
+      "Infantry", "Navy", "Armada", "Fleet", "Expedition", "Discovery",
+      "Exploration", "Trade Route", "Silk Road", "Spice Trade",
+      "Gold Rush", "Industrial Revolution", "World War", "Cold War",
+      "Space Race", "Moon Landing", "Atomic Bomb", "Holocaust",
+      "Genocide", "Apartheid", "Civil Rights", "Suffrage", "Abolition",
+      "Renaissance", "Reformation", "Enlightenment"
+    ],
+    "medium": [
+      "Oligarchy", "Theocracy", "Meritocracy", "Aristocracy", "Plutocracy",
+      "Kleptocracy", "Ochlocracy", "Timocracy", "Stratocracy", "Technocracy",
+      "Bureaucracy", "Federalism", "Confederalism", "Unitarism", "Devolution",
+      "Subsidiarity", "Corporatism", "Syndicalism", "Anarchism", "Nihilism",
+      "Positivism", "Empiricism", "Rationalism", "Idealism", "Materialism",
+      "Dialectics", "Hegemony", "Sovereignty", "Legitimacy", "Constitutionalism",
+      "Republicanism", "Liberalism", "Conservatism", "Socialism", "Communism",
+      "Fascism", "Nationalism", "Imperialism", "Colonialism", "Neocolonialism",
+      "Mercantilism", "Physiocracy", "Cameralism", "Bullionism", "Protectionism",
+      "Free Trade", "Laissez Faire", "Keynesianism", "Monetarism", "Neoliberalism"
+    ],
+    "hard": [
+      "Annales School", "Cliometrics", "Counterfactual History", "Hagiography",
+      "Historiography", "Palaeography", "Diplomatics", "Numismatics",
+      "Sigillography", "Epigraphy", "Papyrology", "Codicology",
+      "Prosopography", "Onomastics", "Toponymy", "Chronology",
+      "Stratigraphy", "Dendrochronology", "Palynology", "Archaeoastronomy",
+      "Archaeobotany", "Archaeozoology", "Geoarchaeology", "Archaeometry",
+      "Ethnoarchaeology", "Experimental Archaeology", "Maritime Archaeology",
+      "Industrial Archaeology", "Landscape Archaeology", "Remote Sensing",
+      "LiDAR Survey", "GPR Survey", "Magnetometry", "Resistivity Survey",
+      "Phosphate Analysis", "Micromorphology", "Anthracology", "Phytolith",
+      "Starch Grain", "Use Wear Analysis", "Residue Analysis", "DNA Analysis",
+      "Isotope Analysis", "Radiocarbon Dating", "Thermoluminescence",
+      "Optically Stimulated Luminescence", "Potassium Argon Dating",
+      "Uranium Series Dating", "Fission Track Dating", "Archaeomagnetism"
+    ]
+  },
+  "music": {
+    "easy": [
+      "Guitar", "Piano", "Drums", "Violin", "Trumpet", "Flute", "Saxophone",
+      "Bass", "Keyboard", "Microphone", "Amplifier", "Speaker", "Headphones",
+      "Earphones", "CD", "Vinyl", "Cassette", "Radio", "Concert", "Festival",
+      "Album", "Single", "Chorus", "Verse", "Bridge", "Hook", "Beat",
+      "Melody", "Harmony", "Rhythm", "Tempo", "Pitch", "Note", "Chord",
+      "Scale", "Key", "Octave", "Treble", "Bass Clef", "Staff", "Rest",
+      "Pop", "Rock", "Jazz", "Blues", "Classical", "Hip Hop", "R&B",
+      "Country", "Electronic", "Reggae"
+    ],
+    "medium": [
+      "Counterpoint", "Polyphony", "Homophony", "Monophony", "Heterophony",
+      "Atonality", "Serialism", "Minimalism", "Spectralism", "Microtonality",
+      "Polyrhythm", "Polytonality", "Bitonality", "Pantonality", "Extended Technique",
+      "Prepared Piano", "Toy Piano", "Microtonal Guitar", "Theremin",
+      "Ondes Martenot", "Electronic Organ", "Hammond Organ", "Mellotron",
+      "Synthesizer", "Vocoder", "Talk Box", "Auto-Tune", "Pitch Shifter",
+      "Harmonizer", "Reverb", "Delay", "Chorus Effect", "Flanger", "Phaser",
+      "Distortion", "Overdrive", "Fuzz", "Wah-Wah", "Tremolo", "Vibrato",
+      "Compressor", "Limiter", "Gate", "EQ", "Multiband Compressor",
+      "Side-Chain", "Parallel Processing", "Mid-Side Processing",
+      "Mastering", "Mixing", "Tracking", "Overdubbing"
+    ],
+    "hard": [
+      "Sprechgesang", "Klangfarbenmelodie", "Gesamtkunstwerk", "Musique Concrète",
+      "Acousmatic", "Electroacoustic", "Stochastic Music", "Aleatoric Music",
+      "Indeterminacy", "Improvisation", "Free Improvisation", "Instant Composition",
+      "Collective Improvisation", "Guided Improvisation", "Graphic Score",
+      "Text Score", "Proportional Notation", "Space Notation", "Time-Space Notation",
+      "Extended Notation", "New Complexity", "New Simplicity", "Postminimalism",
+      "Totalism", "Spectral Music", "Inharmonic Spectrum", "Residue Tone",
+      "Combination Tone", "Tartini Tone", "Difference Tone", "Summation Tone",
+      "Virtual Pitch", "Missing Fundamental", "Auditory Scene Analysis",
+      "Auditory Streaming", "Auditory Grouping", "Gestalt Auditory",
+      "Psychoacoustics", "Acoustemology", "Ethnomusicology", "Organology",
+      "Iconography", "Music Iconology", "Music Semiotics", "Music Phenomenology",
+      "Music Hermeneutics", "Music Ontology", "Music Epistemology",
+      "Music Aesthetics", "Music Philosophy"
+    ]
+  }
 }
